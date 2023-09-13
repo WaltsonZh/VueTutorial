@@ -1,5 +1,5 @@
 <script setup>
-  import { ref } from 'vue'
+  import { computed, ref } from 'vue'
 
   const name = ref('Waltson')
   const count = ref(0)
@@ -37,6 +37,10 @@
   const toggleFav = (book) => {
     book.isFav = !book.isFav
   }
+
+  const filteredBooks = computed(() => {
+    return books.value.filter((book) => book.isFav)
+  })
 </script>
 
 <template>
@@ -64,6 +68,12 @@
 
   <ul>
     <li v-for="book in books" :class="{ fav: book.isFav }" @click="toggleFav(book)">
+      {{ book.title }} - {{ book.author }}
+    </li>
+  </ul>
+
+  <ul>
+    <li v-for="book in filteredBooks">
       {{ book.title }} - {{ book.author }}
     </li>
   </ul>
