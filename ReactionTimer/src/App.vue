@@ -2,7 +2,7 @@
   <h1>Ninja Reaction Timer</h1>
   <button @click="start" :disabled="isPlaying">play</button>
   <Block :delay="delay" v-if="isPlaying" @end="endGame" />
-  <Results :showResult="showResult" :score="score" />
+  <Results v-if="showResult" :showResult="showResult" :score="score" />
 </template>
 
 <script>
@@ -40,10 +40,16 @@
     margin-top: 2em;
   }
   button {
-    width: 200px;
-    height: 2em;
-    border-radius: 10px;
-    background: #81fadc;
+    border-radius: 4px;
+    background: #0faf87;
+    color: white;
     cursor: pointer;
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  button[disabled] {
+    opacity: 0.2;
+    cursor: not-allowed;
   }
 </style>

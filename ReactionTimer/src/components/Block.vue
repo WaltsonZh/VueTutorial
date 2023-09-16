@@ -1,5 +1,6 @@
 <template>
   <div class="block" v-if="showBlock" @click="stopTimer">click me</div>
+  <div class="block preview" v-else></div>
 </template>
 
   <script>
@@ -35,6 +36,7 @@
 <style scoped>
   .block {
     width: 400px;
+    height: 250px;
     border-radius: 20px;
     background: #0faf87;
     color: white;
@@ -42,5 +44,10 @@
     padding: 100px 0;
     margin: 40px auto;
     cursor: pointer;
+  }
+
+  .block.preview {
+    background: transparent;
+    outline: #0faf87 1px solid;
   }
 </style>
