@@ -1,13 +1,22 @@
 <template>
   <form>
-    <label>Email</label>
-    <input type="email" required>
+    <label>Email:</label>
+    <input type="email" required v-model="email" />
+    <label>Password:</label>
+    <input type="password" required v-model="password" />
   </form>
+  <p>Email: {{ email }}</p>
+  <p>Password: {{ password }}</p>
 </template>
 
 <script>
   export default {
-
+    data() {
+      return {
+        email: 'mario',
+        password: '',
+      }
+    },
   }
 </script>
 
@@ -15,7 +24,7 @@
   form {
     max-width: 800px;
     width: 70%;
-    margin: 90px auto;
+    margin: 90px auto 0;
     background: white;
     text-align: left;
     padding: 40px;
