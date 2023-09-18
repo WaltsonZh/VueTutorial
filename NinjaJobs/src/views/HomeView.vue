@@ -1,9 +1,16 @@
-<script setup>
-  import TheWelcome from '../components/TheWelcome.vue'
+<template>
+  <h1>Homepage</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus molestiae qui magni itaque delectus pariatur quasi sed eos ullam odio modi expedita quos dicta blanditiis voluptates eaque, ad quia. Voluptatem quis sapiente, tempora vel perspiciatis cupiditate pariatur harum quo in! Ducimus, animi corrupti amet dignissimos dolorum expedita laboriosam totam, autem itaque officia eligendi porro incidunt quo veniam tempora cupiditate perferendis aperiam. Sequi quasi molestiae optio velit amet fuga veritatis, ad dolor iste laudantium maiores asperiores autem cumque possimus cum a iusto animi praesentium ullam. Dolor minus doloremque, magnam dolore possimus ad ratione dolorum maxime fugit facere esse commodi nobis eius?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus molestiae qui magni itaque delectus pariatur quasi sed eos ullam odio modi expedita quos dicta blanditiis voluptates eaque, ad quia. Voluptatem quis sapiente, tempora vel perspiciatis cupiditate pariatur harum quo in! Ducimus, animi corrupti amet dignissimos dolorum expedita laboriosam totam, autem itaque officia eligendi porro incidunt quo veniam tempora cupiditate perferendis aperiam. Sequi quasi molestiae optio velit amet fuga veritatis, ad dolor iste laudantium maiores asperiores autem cumque possimus cum a iusto animi praesentium ullam. Dolor minus doloremque, magnam dolore possimus ad ratione dolorum maxime fugit facere esse commodi nobis eius?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus molestiae qui magni itaque delectus pariatur quasi sed eos ullam odio modi expedita quos dicta blanditiis voluptates eaque, ad quia. Voluptatem quis sapiente, tempora vel perspiciatis cupiditate pariatur harum quo in! Ducimus, animi corrupti amet dignissimos dolorum expedita laboriosam totam, autem itaque officia eligendi porro incidunt quo veniam tempora cupiditate perferendis aperiam. Sequi quasi molestiae optio velit amet fuga veritatis, ad dolor iste laudantium maiores asperiores autem cumque possimus cum a iusto animi praesentium ullam. Dolor minus doloremque, magnam dolore possimus ad ratione dolorum maxime fugit facere esse commodi nobis eius?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus molestiae qui magni itaque delectus pariatur quasi sed eos ullam odio modi expedita quos dicta blanditiis voluptates eaque, ad quia. Voluptatem quis sapiente, tempora vel perspiciatis cupiditate pariatur harum quo in! Ducimus, animi corrupti amet dignissimos dolorum expedita laboriosam totam, autem itaque officia eligendi porro incidunt quo veniam tempora cupiditate perferendis aperiam. Sequi quasi molestiae optio velit amet fuga veritatis, ad dolor iste laudantium maiores asperiores autem cumque possimus cum a iusto animi praesentium ullam. Dolor minus doloremque, magnam dolore possimus ad ratione dolorum maxime fugit facere esse commodi nobis eius?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus molestiae qui magni itaque delectus pariatur quasi sed eos ullam odio modi expedita quos dicta blanditiis voluptates eaque, ad quia. Voluptatem quis sapiente, tempora vel perspiciatis cupiditate pariatur harum quo in! Ducimus, animi corrupti amet dignissimos dolorum expedita laboriosam totam, autem itaque officia eligendi porro incidunt quo veniam tempora cupiditate perferendis aperiam. Sequi quasi molestiae optio velit amet fuga veritatis, ad dolor iste laudantium maiores asperiores autem cumque possimus cum a iusto animi praesentium ullam. Dolor minus doloremque, magnam dolore possimus ad ratione dolorum maxime fugit facere esse commodi nobis eius?</p>
+</template>
+
+<script>
+
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped>
+
+</style>

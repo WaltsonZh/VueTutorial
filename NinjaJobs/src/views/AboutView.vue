@@ -1,15 +1,16 @@
 <template>
-  <div class="about">
     <h1>This is an about page</h1>
-  </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quos dolorem fuga eius consequatur nisi explicabo et ad, provident repellat? Obcaecati voluptatum eveniet, voluptates sint eligendi sapiente non quis, vitae voluptate quam maiores! Eaque sunt a ea iste repellendus perferendis error temporibus officiis rem asperiores beatae optio soluta, nihil suscipit est earum magni eveniet sit incidunt molestias facilis odit officia! Necessitatibus, a quo aperiam perspiciatis ratione qui aliquid, laudantium repellat commodi cum eos saepe ipsa? Doloribus repellat numquam consectetur, earum ab temporibus iure quae id recusandae error esse modi laboriosam, et quia exercitationem voluptatum at similique dignissimos doloremque quam ea!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quos dolorem fuga eius consequatur nisi explicabo et ad, provident repellat? Obcaecati voluptatum eveniet, voluptates sint eligendi sapiente non quis, vitae voluptate quam maiores! Eaque sunt a ea iste repellendus perferendis error temporibus officiis rem asperiores beatae optio soluta, nihil suscipit est earum magni eveniet sit incidunt molestias facilis odit officia! Necessitatibus, a quo aperiam perspiciatis ratione qui aliquid, laudantium repellat commodi cum eos saepe ipsa? Doloribus repellat numquam consectetur, earum ab temporibus iure quae id recusandae error esse modi laboriosam, et quia exercitationem voluptatum at similique dignissimos doloremque quam ea!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quos dolorem fuga eius consequatur nisi explicabo et ad, provident repellat? Obcaecati voluptatum eveniet, voluptates sint eligendi sapiente non quis, vitae voluptate quam maiores! Eaque sunt a ea iste repellendus perferendis error temporibus officiis rem asperiores beatae optio soluta, nihil suscipit est earum magni eveniet sit incidunt molestias facilis odit officia! Necessitatibus, a quo aperiam perspiciatis ratione qui aliquid, laudantium repellat commodi cum eos saepe ipsa? Doloribus repellat numquam consectetur, earum ab temporibus iure quae id recusandae error esse modi laboriosam, et quia exercitationem voluptatum at similique dignissimos doloremque quam ea!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quos dolorem fuga eius consequatur nisi explicabo et ad, provident repellat? Obcaecati voluptatum eveniet, voluptates sint eligendi sapiente non quis, vitae voluptate quam maiores! Eaque sunt a ea iste repellendus perferendis error temporibus officiis rem asperiores beatae optio soluta, nihil suscipit est earum magni eveniet sit incidunt molestias facilis odit officia! Necessitatibus, a quo aperiam perspiciatis ratione qui aliquid, laudantium repellat commodi cum eos saepe ipsa? Doloribus repellat numquam consectetur, earum ab temporibus iure quae id recusandae error esse modi laboriosam, et quia exercitationem voluptatum at similique dignissimos doloremque quam ea!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quos dolorem fuga eius consequatur nisi explicabo et ad, provident repellat? Obcaecati voluptatum eveniet, voluptates sint eligendi sapiente non quis, vitae voluptate quam maiores! Eaque sunt a ea iste repellendus perferendis error temporibus officiis rem asperiores beatae optio soluta, nihil suscipit est earum magni eveniet sit incidunt molestias facilis odit officia! Necessitatibus, a quo aperiam perspiciatis ratione qui aliquid, laudantium repellat commodi cum eos saepe ipsa? Doloribus repellat numquam consectetur, earum ab temporibus iure quae id recusandae error esse modi laboriosam, et quia exercitationem voluptatum at similique dignissimos doloremque quam ea!</p>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+<script>
+
+</script>
+
+<style scoped>
+
 </style>
