@@ -29,7 +29,7 @@
     background: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
-    margin: 10px auto;
+    margin: 0 auto;
     max-width: 600px;
     cursor: pointer;
     color: #444;
