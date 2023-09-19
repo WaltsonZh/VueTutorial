@@ -1,9 +1,14 @@
 <template>
   <h1>Jobs</h1>
-  <div v-for="job in jobs" :key="job.id" class="job">
-    <RouterLink :to="{ name: 'JobDetails', params: { id: job.id } }">
-      <h2>{{ job.title }}</h2>
-    </RouterLink>
+  <div v-if="jobs.length">
+    <div v-for="job in jobs" :key="job.id" class="job">
+      <RouterLink :to="{ name: 'JobDetails', params: { id: job.id } }">
+        <h2>{{ job.title }}</h2>
+      </RouterLink>
+    </div>
+  </div>
+  <div v-else>
+    <p>Loading jobs...</p>
   </div>
 </template>
 
@@ -17,15 +22,18 @@
     mounted() {
       fetch('http://localhost:3000/jobs')
         .then((res) => res.json())
-        .then((data) => this.jobs = data)
+        .then((data) => (this.jobs = data))
         .catch((err) => console.log(err))
     },
   }
 </script>
 
 <style scoped>
-  .job {
+  div {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
   }
   .job h2 {
     background: #f4f4f4;
