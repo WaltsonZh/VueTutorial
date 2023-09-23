@@ -1,12 +1,13 @@
 <template>
   <div class="app">
-    {{ JSON.stringify(jobs) }}
+    <JobList :jobs="jobs" />
   </div>
 </template>
 
 <script setup lang="ts">
   import { ref } from 'vue'
   import Job from './types/Jobs.ts'
+  import JobList from './components/JobList.vue'
 
   const jobs = ref<Job[]>([
     { title: 'farm worker', location: 'lon lon ranch', salary: 30000, id: '1' },
