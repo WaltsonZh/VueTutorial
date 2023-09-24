@@ -1,5 +1,6 @@
 <template>
   <div class="job-list">
+    <p>Ordered by {{ order }}</p>
     <ul>
       <li v-for="job in jobs" :key="job.id">
         <h2>{{ job.title }} - {{ job.location }}</h2>
@@ -14,8 +15,12 @@
 
 <script setup lang="ts">
   import Job from '../types/Jobs.ts'
+  import OrderTerm from '../types/OrderTerm.ts'
 
-  defineProps<{ jobs: Job[] }>()
+  defineProps<{
+    jobs: Job[]
+    order: OrderTerm
+  }>()
 </script>
 
 <style scoped>
