@@ -12,7 +12,13 @@ body {
   background: #ece6d9;
 }
 
+@font-face {
+  font-family: HyliaSerif;
+  src: url('HyliaSerifBeta-Regular.otf') format('opentype');
+}
+
 #app {
   height: 100%;
   width: 100%;
+  padding: 1em;
 }
